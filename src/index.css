@@ -18,3 +18,7 @@ code {
   --skygreen: #27a68e;
   --skypink: #eadaff;
 }
+
+a{
+  text-decoration: none;
+}

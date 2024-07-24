@@ -1,17 +1,25 @@
-// teamComp.js
 import React from 'react';
-import { teams } from '../../data';
+import { teams } from '../../utils/data';
 import './teamComp.css';
+import { Link } from 'react-router-dom';
 
 const TeamComp = () => {
   return (
     <div className="team-comp-container">
-      {teams.map((team, index) => (
-        <div key={index} className={`team-comp ${index % 2 === 0 ? 'left' : 'right'}`}>
+      {teams.map((team) => (
+        <div key={team.id} className={`team-comp ${team.id % 2 === 0 ? 'left' : 'right'}`}>
           <div className="team-comp-left">
-            <img src={team.logo} alt="team logo" className="team-logo" />
-            <div className="team-name">{team.name}</div>
-            <div className="team-description">{team.description}</div>
+            <Link to={`/${team.id}`}>
+              <img src={team.logo} alt="team logo" className="team-logo" />
+            </Link>
+            
+            <Link to={`/${team.id}`}>
+              <div className="team-name">{team.name}</div>
+            </Link>
+            
+            <Link to={`/${team.id}`}>
+              <div className='team-description'>{team.descshort} </div>
+            </Link>
           </div>
           <div className="team-comp-right">
             <div className="team-projects">
