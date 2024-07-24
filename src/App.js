@@ -3,6 +3,7 @@ import Skylab from "./images/skylab-uzun-logo.png";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import LandingPage from "./pages/LandingPage/landingPage";
 import DetailPage from "./pages/DetailPage/detailPage";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<LandingPage/>}/>
           <Route path="/:teamId" element={<DetailPage />} />
         </Routes>
+        <Footer/>
       </div>
     </BrowserRouter>
   );
