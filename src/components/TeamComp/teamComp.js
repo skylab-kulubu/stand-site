@@ -29,6 +29,9 @@ const TeamComp = () => {
                 </div>
               ))}
             </div>
+            <div className='team-button'> 
+              <Link to={`/${team.id}`}> Detayları Gör </Link>
+            </div>
           </div>
         </div>
       ))}

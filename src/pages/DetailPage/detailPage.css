@@ -4,6 +4,10 @@
     align-items: center;
     padding: 20px;
   }
+
+.team-detail-container img{
+  filter: drop-shadow(0 0 0.7rem #eadaff80);
+}
   
   .team-detail-container .team-logo {
     width: 200px;

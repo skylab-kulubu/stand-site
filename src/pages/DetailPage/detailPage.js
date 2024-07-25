@@ -14,9 +14,8 @@ const DetailPage = () => {
   return (
     <div className="team-detail-container">
       <div
-        className="team-logo"
-        style={{ backgroundImage: `url(${team.logo})` }}
-      ></div>
+        
+      ><img src={team.logo} alt="team logo" className="team-logo" /></div>
       <div className="team-name">{team.name}</div>
       <div className="team-description">{team.description}</div>
       <div className="team-projects">
