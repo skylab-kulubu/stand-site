@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { teams } from "../../utils/data";
 import "./detailPage.css";
+import AnimatedPage from "../../utils/animatedPage";
 
 
 const DetailPage = () => {
@@ -13,6 +14,7 @@ const DetailPage = () => {
   }
 
   return (
+    <AnimatedPage>
     <div className="team-detail-container">
       <div>
         <img src={team.logo} alt="team logo" className="team-logo" />
@@ -27,6 +29,7 @@ const DetailPage = () => {
         ))}
       </div>
     </div>
+    </AnimatedPage>
   );
 };
 
