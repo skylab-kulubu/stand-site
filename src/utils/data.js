@@ -72,8 +72,8 @@ export const teams = [
       id: 6,
       logo: skysis,
       name: 'SKYSIS',
-      descshort: 'Kısa Açıklama',
-      description: 'Ekip Zeta açıklaması, uzun olacak şekilde bir yazı diye düşündük.',
+      descshort: 'SKYSIS ekibi, gömülü sistemler projeleri geliştirir, yarışmalara katılır ve ilgili kişiler için bir topluluk oluşturur.',
+      description: 'Sky-SIS ekibi olarak gömülü sistemler üzerine projeler geliştirip çeşitli yarışmalara katılıyoruz. Şu anda TEKNOFEST’te son aşamasında olan Skylite ve Çedar ekibimiz büyük bir heyecanla çalışmaya devam ediyor. Ekibimizde farklı bölümlerden insanlara yer vererek, disiplinler arası bir çalışma ortamı yaratıyoruz. Hep birlikte gömülü sistemler alanında gömülü yazılım, donanım ve mekanik tasarımı alt başlıklarında kendimizi geliştiriyor bu alanlarda araştırma yazıları yazarak teknolojiyi takip ediyoruz. Temel amacımız, gömülü sistemlere ilgi duyan veya henüz bu alanda bilgi sahibi olmayan kişiler için bir topluluk oluşturmak. Ekip üyelerimiz, birlikte proje geliştirerek hem akademik hem de kariyer anlamında kendilerine katkı sağlıyorlar. Aynı zamanda grup çalışması deneyimi kazanarak, iş hayatına daha deneyimli ve donanımlı bir şekilde hazırlanıyorlar.',
       projects: [
         'x projesi | x projesi detayları ve açıklamaları',
         'x projesi | x projesi detayları ve açıklamaları',
