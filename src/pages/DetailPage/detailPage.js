@@ -21,13 +21,13 @@ const DetailPage = () => {
       </div>
       <div className="team-name">{team.name}</div>
       <div className="team-description">{team.description}</div>
-      <div className="team-projects">
+      {/*<div className="team-projects">
         {team.projects.map((project, index) => (
           <div key={index} className="team-project">
             {project}
           </div>
         ))}
-      </div>
+      </div>*/}
     </div>
     </AnimatedPage>
   );

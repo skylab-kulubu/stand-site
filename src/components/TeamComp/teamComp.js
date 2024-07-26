@@ -22,13 +22,13 @@ const TeamComp = () => {
             </Link>
           </div>
           <div className="team-comp-right">
-            <div className="team-projects">
+            {/*<div className="team-projects">
               {team.projects.map((project, idx) => (
                 <div key={idx} className="team-project">
                   {project}
                 </div>
-              ))}
-            </div>
+              ))
+            </div>*/}
             <div className='team-button'> 
               <Link to={`/${team.id}`}> Detayları Gör </Link>
             </div>
